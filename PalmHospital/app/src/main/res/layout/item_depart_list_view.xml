@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    >
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/depart_img"
+        android:gravity="center_vertical"
+        ></ImageView>
+
+
+    <TextView
+        android:id="@+id/depart_name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="5dp"
+        android:gravity="center_vertical"
+        android:text="@string/app_name"
+        android:textSize="26sp">
+
+    </TextView>
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.LoginActivity"
+    android:background="@mipmap/login_bg">
+    <TextView
+        android:id="@+id/id_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:text="掌上医院"
+
+        android:textSize="40sp"
+        android:textStyle="bold"></TextView>
+
+
+    <EditText
+        android:paddingLeft="20dp"
+        android:id="@+id/id_et_uid"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@id/id_tv_title"
+        android:layout_marginTop="40dp"
+        android:background="#44ffffff"
+        android:hint="请输入账号"
+        android:inputType="text"
+
+        android:textColorHint="#070707" />
+
+    <EditText
+        android:paddingLeft="20dp"
+        android:id="@+id/id_et_upsw"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@id/id_et_uid"
+        android:layout_marginTop="4dp"
+        android:background="#44ffffff"
+        android:hint="请输入密码"
+        android:inputType="textWebPassword"
+        android:textColorHint="#070707" />
+
+
+    <Button
+        android:id="@+id/id_btn_login"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_et_upsw"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="60dp"
+        android:background="#87CEFA"
+        android:text="登录"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/id_tv_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_btn_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="注册账号"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+
+
+</RelativeLayout>

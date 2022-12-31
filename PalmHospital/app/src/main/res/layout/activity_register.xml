@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.RegisterActivity"
+    android:background="@mipmap/register_bg">
+    <TextView
+        android:id="@+id/id_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:text="注册账户"
+
+        android:textSize="40sp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:paddingLeft="20dp"
+        android:id="@+id/id_et_register_uname"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@id/id_tv_title"
+        android:layout_marginTop="40dp"
+        android:background="#44ffffff"
+        android:hint="请输入姓名"
+        android:inputType="text"
+
+        android:textColorHint="#070707" />
+    <EditText
+        android:paddingLeft="20dp"
+        android:id="@+id/id_et_register_uid"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@id/id_et_register_uname"
+        android:layout_marginTop="4dp"
+        android:background="#44ffffff"
+        android:hint="请输入账号"
+        android:inputType="text"
+        android:textColorHint="#070707" />
+
+    <EditText
+        android:paddingLeft="20dp"
+        android:id="@+id/id_et_register_upsw"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@id/id_et_register_uid"
+        android:layout_marginTop="4dp"
+        android:background="#44ffffff"
+        android:hint="请输入密码"
+        android:inputType="textWebPassword"
+        android:textColorHint="#070707" />
+    <EditText
+        android:paddingLeft="20dp"
+        android:id="@+id/id_et_register_reupsw"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_below="@id/id_et_register_upsw"
+        android:layout_marginTop="4dp"
+        android:background="#44ffffff"
+        android:hint="请重复输入密码"
+        android:inputType="textWebPassword"
+        android:textColorHint="#070707" />
+
+    <Button
+        android:id="@+id/id_btn_register"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_et_register_reupsw"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="60dp"
+        android:text="提交"
+        android:background="#87CEFA"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/id_tv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_btn_register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="已经注册？直接登录"
+        android:textColor="#000000"
+        android:textSize="18sp"/>
+</RelativeLayout>

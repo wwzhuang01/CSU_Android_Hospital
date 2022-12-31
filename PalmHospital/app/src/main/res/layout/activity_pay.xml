@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.PayActivity"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="确认信息"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:layout_margin="15dp"></TextView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:text="患者姓名："
+            android:textSize="20sp"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/uname"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text="李明"
+            android:textSize="20sp"></TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:text="医生姓名："
+            android:textSize="20sp"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/dname"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text="王刚"
+            android:textSize="20sp"></TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:text="预约科室："
+            android:textSize="20sp"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/departname"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text="李明"
+            android:textSize="20sp"></TextView>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:text="预约时间："
+            android:textSize="20sp"
+            >
+        </TextView>
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text="2022-01-14 下午"
+            android:textSize="20sp"
+            >
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:text="挂号费用："
+            android:textSize="20sp"
+            >
+        </TextView>
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text="￥10"
+            android:textSize="20sp"
+            >
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+
+        <Button
+            android:id="@+id/pay_yes"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:background="#87CEFA"
+            android:text="确认支付"
+            android:textSize="22sp"></Button>
+
+        <Button
+            android:id="@+id/pay_no"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="取消预约"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:background="#87CEFA"
+            android:textSize="22sp"
+            ></Button>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

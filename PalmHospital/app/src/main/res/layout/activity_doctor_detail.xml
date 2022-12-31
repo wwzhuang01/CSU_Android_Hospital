@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    tools:context=".ui.activity.DoctorDetailActivity"
+>
+    <LinearLayout
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp">
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/btn_back"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/firstLL"
+        android:layout_below="@id/back"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/dimg"
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:gravity="center_vertical"
+            android:src="@mipmap/doctor_male"></ImageView>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/dname"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:text="王冰"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+
+                    ></TextView>
+
+                <TextView
+                    android:id="@+id/dlevel"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:text="主治医生"
+                    android:textSize="20sp"></TextView>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/dinfo"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="擅长皮肤过敏治疗、擅长皮肤过敏治疗、擅长皮肤过敏治疗、擅长皮肤过敏治疗、擅长皮肤过敏治疗、"
+                android:textSize="18sp"
+
+                ></TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/secondTV"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/firstLL"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="详细介绍"
+        android:textColor="#000000"
+        android:textSize="24sp"></TextView>
+    <TextView
+        android:layout_below="@id/secondTV"
+        android:id="@+id/ddetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="医学博士，现为中南大学湘雅二医院皮肤科主任医师、硕士研究生导师、中华医学会皮肤科分会青年委员会委员、中华医学会热带病与寄生虫病分会皮肤性病学组委员、湖南省女医师协会女性皮肤健康与皮肤病防治委员会副主任委员。2013年至2014年为美国加州大学旧金山分校皮肤科博士后，2015年在美国加州大学旧金山分校(UCSF) 皮肤病理科进修皮肤病理。熟练掌握各种常见、疑难危重皮肤病的临床诊断和治疗以及本专业国内外发展动态，多次参与院内外大会诊及远程会诊，年均门诊量近一万人次，年均诊断皮肤病理切片1500多张，荣获中国医师协会皮肤科分会优秀中青年医师奖。"
+        android:textSize="16sp"></TextView>
+
+
+        
+
+</RelativeLayout>

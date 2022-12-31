@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.IndexActivity"
+    android:background="@mipmap/login_bg"
+
+    >
+    <TextView
+        android:id="@+id/welcome_uname"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="李明，欢迎您！"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:textColor="@color/black"
+        ></TextView>
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="预约挂号"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="26sp"
+        android:background="#87CEFA"
+        />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我的信息"
+
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="26sp"
+        android:background="#87CEFA"/>
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="退出账号"
+
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="26sp"
+        android:background="#87CEFA"/>
+</LinearLayout>

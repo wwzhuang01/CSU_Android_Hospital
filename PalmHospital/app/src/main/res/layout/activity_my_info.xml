@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.MyInfoActivity"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp">
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/btn_back"></ImageView>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/welcome_uname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="李明，欢迎您！"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="50dp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/firstLL"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="预约记录"
+        android:textColor="#000000"
+        android:textSize="26sp"></TextView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:text="时间"
+            android:textSize="22sp"></TextView>
+
+        <TextView
+            android:id="@+id/departname"
+            android:textSize="22sp"
+            android:paddingLeft="50dp"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingRight="5dp"
+            android:gravity="center_vertical"
+            android:text="科室">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/dname"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:paddingRight="5dp"
+            android:text="医生姓名"
+            android:textSize="22sp">
+
+        </TextView>
+
+
+
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/myinfo_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+
+</LinearLayout>

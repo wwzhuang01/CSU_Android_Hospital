@@ -1,0 +1,50 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp">
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_vertical"
+        android:text="2022-01-16 下午"
+        android:textSize="22sp"></TextView>
+
+    <TextView
+        android:id="@+id/departname"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="50dp"
+        android:paddingRight="5dp"
+        android:text="皮肤科"
+        android:textSize="22sp">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/dname"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical"
+        android:paddingRight="5dp"
+        android:text="王刚"
+        android:textSize="22sp">
+
+    </TextView>
+
+
+
+</RelativeLayout>
